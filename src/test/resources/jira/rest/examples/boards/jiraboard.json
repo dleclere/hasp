@@ -1,0 +1,58 @@
+{
+  "id": 1,
+  "name": "CGP board",
+  "type": "scrum",
+  "self": "https://dlc-demo.atlassian.net/rest/agile/1.0/board/1/configuration",
+  "location": {
+    "type": "project",
+    "key": "CGP",
+    "id": "10000",
+    "self": "https://dlc-demo.atlassian.net/rest/api/2/project/10000"
+  },
+  "filter": {
+    "id": "10000",
+    "self": "https://dlc-demo.atlassian.net/rest/api/2/filter/10000"
+  },
+  "columnConfig": {
+    "columns": [
+      {
+        "name": "To Do",
+        "statuses": [
+          {
+            "id": "10000",
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000"
+          }
+        ]
+      },
+      {
+        "name": "In Progress",
+        "statuses": [
+          {
+            "id": "3",
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/status/3"
+          }
+        ]
+      },
+      {
+        "name": "Done",
+        "statuses": [
+          {
+            "id": "10001",
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10001"
+          }
+        ]
+      }
+    ],
+    "constraintType": "none"
+  },
+  "estimation": {
+    "type": "field",
+    "field": {
+      "fieldId": "customfield_10014",
+      "displayName": "Story Points"
+    }
+  },
+  "ranking": {
+    "rankCustomFieldId": 10011
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10002",
+  "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/10002",
+  "key": "CGP-3",
+  "fields": {
+    "issuetype": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issuetype/10001",
+      "id": "10001",
+      "description": "Stories track functionality or features expressed as user goals.",
+      "iconUrl": "https://dlc-demo.atlassian.net/images/icons/issuetypes/story.svg",
+      "name": "Story",
+      "subtask": false
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "CGP",
+      "name": "Create Great Prodict",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://dlc-demo.atlassian.net/secure/projectavatar?pid=10000&avatarId=10400",
+        "24x24": "https://dlc-demo.atlassian.net/secure/projectavatar?size=small&pid=10000&avatarId=10400",
+        "16x16": "https://dlc-demo.atlassian.net/secure/projectavatar?size=xsmall&pid=10000&avatarId=10400",
+        "32x32": "https://dlc-demo.atlassian.net/secure/projectavatar?size=medium&pid=10000&avatarId=10400"
+      }
+    },
+    "fixVersions": [
+      {
+        "self": "https://dlc-demo.atlassian.net/rest/api/2/version/10002",
+        "id": "10002",
+        "name": "Version 3.0",
+        "archived": false,
+        "released": false
+      }
+    ],
+    "aggregatetimespent": null,
+    "resolution": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "lastViewed": "2018-05-12T16:28:02.219+1000",
+    "watches": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/CGP-3/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "created": "2018-05-11T08:12:47.347+1000",
+    "customfield_10020": "",
+    "customfield_10021": "",
+    "customfield_10022": "",
+    "customfield_10023": "",
+    "priority": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://dlc-demo.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10024": "",
+    "labels": [],
+    "customfield_10017": null,
+    "customfield_10018": "",
+    "customfield_10019": "",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "10009",
+        "self": "https://dlc-demo.atlassian.net/rest/api/2/issueLink/10009",
+        "type": {
+          "id": "10000",
+          "name": "Blocks",
+          "inward": "is blocked by",
+          "outward": "blocks",
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/issueLinkType/10000"
+        },
+        "outwardIssue": {
+          "id": "10019",
+          "key": "CGP-20",
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/10019",
+          "fields": {
+            "summary": "(F) As a user, I'd like a historical story to show in reports",
+            "status": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000",
+              "description": "",
+              "iconUrl": "https://dlc-demo.atlassian.net/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://dlc-demo.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://dlc-demo.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Stories track functionality or features expressed as user goals.",
+              "iconUrl": "https://dlc-demo.atlassian.net/images/icons/issuetypes/story.svg",
+              "name": "Story",
+              "subtask": false
+            }
+          }
+        }
+      },
+      {
+        "id": "10008",
+        "self": "https://dlc-demo.atlassian.net/rest/api/2/issueLink/10008",
+        "type": {
+          "id": "10000",
+          "name": "Blocks",
+          "inward": "is blocked by",
+          "outward": "blocks",
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/issueLinkType/10000"
+        },
+        "inwardIssue": {
+          "id": "10016",
+          "key": "CGP-17",
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/10016",
+          "fields": {
+            "summary": "Instructions for deleting this sample board and project are in the description for this issue >> Click the \"CGP-17\" link and read the description tab of the detail view for more",
+            "status": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000",
+              "description": "",
+              "iconUrl": "https://dlc-demo.atlassian.net/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://dlc-demo.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://dlc-demo.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/issuetype/10004",
+              "id": "10004",
+              "description": "A problem which impairs or prevents the functions of the product.",
+              "iconUrl": "https://dlc-demo.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+              "name": "Bug",
+              "subtask": false,
+              "avatarId": 10303
+            }
+          }
+        }
+      }
+    ],
+    "assignee": null,
+    "updated": "2018-05-12T16:28:02.150+1000",
+    "status": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "https://dlc-demo.atlassian.net/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://dlc-demo.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": "*About the Product Backlog*\r\n\r\nThe backlog is the source of truth for the order of work to be completed. It is expected that the Product Owner will work with the team to make sure that the backlog represents the current approach to delivering the product. JIRA Software makes it easy to prioritise (rank) Stories by dragging them up and down the backlog.\r\n\r\nMore detail!!",
+    "customfield_10010": [],
+    "customfield_10011": "0|i0003b:",
+    "customfield_10012": null,
+    "customfield_10013": null,
+    "customfield_10014": 8,
+    "timetracking": {},
+    "security": null,
+    "customfield_10008": null,
+    "customfield_10009": null,
+    "aggregatetimeestimate": null,
+    "attachment": [],
+    "summary": "As a product owner, I'd like to rank stories in the backlog so I can communicate the proposed implementation order >> Try dragging this story up above the previous story",
+    "creator": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/user?username=admin",
+      "name": "admin",
+      "key": "admin",
+      "accountId": "5af4c3763eafdb09dee57437",
+      "emailAddress": "hzoiv@b2bx.net",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+      },
+      "displayName": "Daniel Le Clere",
+      "active": true,
+      "timeZone": "Australia/Sydney"
+    },
+    "subtasks": [
+      {
+        "id": "10023",
+        "key": "CGP-24",
+        "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/10023",
+        "fields": {
+          "summary": "New subtask!",
+          "status": {
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000",
+            "description": "",
+            "iconUrl": "https://dlc-demo.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+              "self": "https://dlc-demo.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://dlc-demo.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "The sub-task of the issue",
+            "iconUrl": "https://dlc-demo.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      }
+    ],
+    "reporter": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/user?username=admin",
+      "name": "admin",
+      "key": "admin",
+      "accountId": "5af4c3763eafdb09dee57437",
+      "emailAddress": "hzoiv@b2bx.net",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+      },
+      "displayName": "Daniel Le Clere",
+      "active": true,
+      "timeZone": "Australia/Sydney"
+    },
+    "customfield_10000": "{}",
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": "",
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/CGP-3/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

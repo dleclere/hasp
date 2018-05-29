@@ -1,0 +1,6 @@
+.idea/
+*.class
+target/
+project/target/
+.DS_STORE
+*.sc

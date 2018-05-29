@@ -1,0 +1,193 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10023",
+  "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/10023",
+  "key": "CGP-24",
+  "fields": {
+    "issuetype": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issuetype/10003",
+      "id": "10003",
+      "description": "The sub-task of the issue",
+      "iconUrl": "https://dlc-demo.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+      "name": "Sub-task",
+      "subtask": true,
+      "avatarId": 10316
+    },
+    "parent": {
+      "id": "10002",
+      "key": "CGP-3",
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/10002",
+      "fields": {
+        "summary": "As a product owner, I'd like to rank stories in the backlog so I can communicate the proposed implementation order >> Try dragging this story up above the previous story",
+        "status": {
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://dlc-demo.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://dlc-demo.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "priority": {
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://dlc-demo.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://dlc-demo.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "Stories track functionality or features expressed as user goals.",
+          "iconUrl": "https://dlc-demo.atlassian.net/images/icons/issuetypes/story.svg",
+          "name": "Story",
+          "subtask": false
+        }
+      }
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "CGP",
+      "name": "Create Great Prodict",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://dlc-demo.atlassian.net/secure/projectavatar?pid=10000&avatarId=10400",
+        "24x24": "https://dlc-demo.atlassian.net/secure/projectavatar?size=small&pid=10000&avatarId=10400",
+        "16x16": "https://dlc-demo.atlassian.net/secure/projectavatar?size=xsmall&pid=10000&avatarId=10400",
+        "32x32": "https://dlc-demo.atlassian.net/secure/projectavatar?size=medium&pid=10000&avatarId=10400"
+      }
+    },
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "resolution": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/CGP-24/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "lastViewed": "2018-05-12T16:32:55.872+1000",
+    "created": "2018-05-12T16:26:14.133+1000",
+    "customfield_10020": "",
+    "customfield_10021": "",
+    "customfield_10022": "",
+    "priority": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://dlc-demo.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10023": "",
+    "customfield_10024": "",
+    "labels": [],
+    "customfield_10017": null,
+    "customfield_10018": "",
+    "customfield_10019": "",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": null,
+    "updated": "2018-05-12T16:32:55.813+1000",
+    "status": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "https://dlc-demo.atlassian.net/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://dlc-demo.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": "Every good subtask needs a subscription",
+    "customfield_10010": [],
+    "customfield_10011": "0|i0004v:",
+    "customfield_10012": null,
+    "customfield_10013": null,
+    "timetracking": {},
+    "security": null,
+    "customfield_10008": null,
+    "aggregatetimeestimate": null,
+    "customfield_10009": null,
+    "attachment": [],
+    "summary": "New subtask!",
+    "creator": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/user?username=admin",
+      "name": "admin",
+      "key": "admin",
+      "accountId": "5af4c3763eafdb09dee57437",
+      "emailAddress": "hzoiv@b2bx.net",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+      },
+      "displayName": "Daniel Le Clere",
+      "active": true,
+      "timeZone": "Australia/Sydney"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/user?username=admin",
+      "name": "admin",
+      "key": "admin",
+      "accountId": "5af4c3763eafdb09dee57437",
+      "emailAddress": "hzoiv@b2bx.net",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/6c1f1c9b5f356b77546d61c28606df41?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F6c1f1c9b5f356b77546d61c28606df41%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+      },
+      "displayName": "Daniel Le Clere",
+      "active": true,
+      "timeZone": "Australia/Sydney"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10000": "{}",
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": "",
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://dlc-demo.atlassian.net/rest/api/2/issue/CGP-24/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}
